@@ -6,7 +6,8 @@
 //but for example this means there is 0 delay before entering a bullet hell segment
 //which might be fine
 Object.defineProperty(env, "ADVANCE_RATE", {
-  get: () => 0,
+  get: () => 100,
   set: () => {}, // ignore any attempts to change it
   configurable: true
 });
+
